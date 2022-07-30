@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-shadow: border-box;
+  transition: 300ms;
+}
+body{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+  
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  width: 250px;
+  height: auto;
+  background-color: hsl(216, 50%, 16%);
+  margin-top: 100px;
+  margin-bottom: 300px;
+  box-shadow: 0.21px 0.21px 20px;
+}
+.container > h2{
+  color: white;
+  font-size: 18px;
+  margin-right: 80px;
+  margin-bottom: 10px;
+  }
+
+  .container > p{
+    color: gray;
+    margin-left: 10px;
+  }
+
+  .container > .numbers{
+    margin-top: 10px;
+    display: flex;
+    gap: 60px;
+    color: rgb(110, 134, 167);
+    font-size: 12px;
+  }
+  
+/* start from here */
+
+  .container > .numbers >span{
+    color: hsl(178, 100%, 50%);
+          
+  }
+
+ .image> img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 10 20 10 10;
+  height: 220px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.container > .line > hr{  
+   width: 230px;
+   border: 0;
+   border-bottom: 0.1px solid rgb(94, 94, 94);
+   margin-bottom: 10px;
+   margin-top: 10px;
+   border-radius: 20px;
+   
+}
+.credits{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  word-spacing: 2px;
+  font-size: 14px;
+  color: white;
+}
+
+.credits > span{
+  color: gray;
+  margin-right:8px ;
+}
+
+
+
+
+.credits > img{
+  width: 30px;
+  border: 1px solid white;
+  padding: 2px;
+  border-radius: 100%;
+  margin-right:15px ;
+  
+}
+
+.attribution {
+   font-size: 11px; text-align: center; }
+
+.attribution a {
+   color: hsl(228, 45%, 44%); }
